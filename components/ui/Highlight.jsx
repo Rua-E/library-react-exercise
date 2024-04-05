@@ -1,6 +1,6 @@
 import React from "react";
 
-const Highlight = ({icon}) => {
+const Highlight = ({icon, title, para}) => {
     return (
         <>
          <div className="highlight">
@@ -8,9 +8,9 @@ const Highlight = ({icon}) => {
                 {icon}
             </div>
             <h3 className="highlight__subtitle">
-                Easy and Quick</h3>
+                {title}</h3>
             <p className="highlight__para">
-                Get access to the book you purchased online instantly
+                {para}
             </p>
         </div>
         </>
