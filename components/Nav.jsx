@@ -10,7 +10,6 @@ const Nav = () => {
         document.body.classList.remove ("menu--open");
     }
 
-    
     return (
     <>
         <nav> 
